@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+      <div class="to-do-list-container">
+        <div class="hdr">
+          <p class="hdr-txt">to-do list</p>
+        </div>
+        <div class="list" >
+          <ul id="task-list">
+            <!-- <li id="task">
+              <input type="text" placeholder="Type here..." />
+              <input type="checkbox" class="bottom-btn checkbox" name="" id="" />
+              <button class="delete bottom-btn" type="">Delete</button>
+            </li> -->
+            
+          </ul>
+          <div class="text-enter">
+            <input type="text" class="main-input" placeholder="Type here..." id="new-task" >
+            <button id="add" class="bottom-btn" onclick="add()"><span>Add</span> </button>
+          </div>
+          
+        </div>
+        
+        <button id="save" class="bottom-btn"><span>Save</span> </button>
+        <button id="clear-all" onclick="clearAll()" class="bottom-btn"><span>Clear All</span> </button>
+      </div>
+    <!-- </div> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
